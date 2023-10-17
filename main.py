@@ -25,8 +25,8 @@ def run_ffuf(target_url, wordlist_path, output_dir, status_codes):
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    target_url = "https://afit.edu.ng/FUZZ"  # Replace with your target URL
-    wordlist_path = "directory-list-2.3-medium.txt"         # Replace with the path to your wordlist file
+    target_url = "https://ymastudios.live/FUZZ"  # Replace with your target URL
+    wordlist_path = "directory-list-2.3-small.txt"         # Replace with the path to your wordlist file
     output_dir = "output"             # Replace with the desired output directory
     status_codes = [200, 405, 204]         # Specify the status codes you want to filter
 
